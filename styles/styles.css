@@ -10,17 +10,26 @@ body {
 main{
     width:700px;
     margin: 40px auto;
+    max-width: fit-content;
 }
 
 h1{
     margin-bottom: 30px;
+    color:black
 }
 
-nav{
+nav {
     padding: 10px;
     background-color: #a0bef5;
     color: azure;
 }
+
+nav a{
+    padding: 10px;
+    display: block;
+    color: azure;
+}
+
 
 a{
     color: white;
@@ -37,24 +46,27 @@ aside{
     text-align: center;
 }
 
+aside img{
+    width: 200px;
+    height: auto;
+}
+
 main img {
   width: 150px;
   height: auto;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 5px;
 }
 
-image{
-    width:500px;
-    margin: 20px;
-    height: auto;
-    box-shadow: 0 0 30px #333
-}
 
 h2{
     margin: 10px;
     font-size: 3rem;
 }
 
-p { width: 80%;
+p { padding: 0;
+    width: 80%;
     margin: 20px auto;
 }
 
