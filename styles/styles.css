@@ -56,7 +56,7 @@ main img {
   height: auto;
   border: 0px;
   padding: 10px;
-  box-shadow: 5px;
+  box-shadow: 0 0 30px #333;
 }
 
 
@@ -72,7 +72,7 @@ p { padding: 0;
 
 footer{
     border-top: 1px solid azure;
-    margin-top: 20px solid azure;
+    margin-top: 20px;
     text-align: center;
     padding: 20px;
 }
