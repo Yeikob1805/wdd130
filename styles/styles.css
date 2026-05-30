@@ -37,7 +37,7 @@ a{
 }
 
 aside{
-    width:800px;
+    width:20em;
     margin:40px auto;
     border:20px ;
     padding:30px;
@@ -57,10 +57,14 @@ main img {
     border: 0px;
     padding: 10px;
     box-shadow: 0 0 30px #333;
+    float: right;
 }
 
 
-h2{
+aside h2{
+    position: absolute;
+    top: 47px;
+    left: 150px;
     margin: 10px;
     font-size: 3rem;
 }
@@ -76,3 +80,14 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
