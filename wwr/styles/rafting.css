@@ -92,6 +92,7 @@ header nav a {
     padding: 0;
     margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .hero article {
@@ -186,11 +187,6 @@ footer p {
     margin: 30px 0;
 }
 
-.company-info h1 {
-    color: var(--accent1-color);
-    margin-bottom: 15px;
-}
-
 .company-info p {
     margin: 5px 0;
     padding: 0;
@@ -207,6 +203,7 @@ footer p {
     width: 80%;
     height: 80%;
     object-fit: cover;
+    border:0;
 }
 
 form {
